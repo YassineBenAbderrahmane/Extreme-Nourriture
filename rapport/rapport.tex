@@ -1,0 +1,27 @@
+\documentclass[french,a4paper]{extarticle}
+\usepackage{classeRapport}
+\usepackage{tocloft,xcolor}
+\usepackage{float} 
+\hypersetup{linkcolor=blue,urlcolor=blue}
+\begin{document}
+
+\PageDeGarde
+{PageDeGarde.png}
+{Projet de Technologies Web 2} % titre principal
+{Site de vente à emporter} % sous-titre
+{Yassine \textsc{Ben Abderrahmane}\\
+Florin \textsc{Croitoru}\\
+Rémy \textsc{Fneich}\\
+Damien \textsc{Gens}}
+{Technologies Web 2 – ITI4 – 2021-2022} % bas de page
+ 
+\Page{INSALogo.pdf} % logo de bas de page (en bas a droite)
+
+\tableofcontents 
+ 
+\clearpage 
+
+\input{specifications.tex}
+\input{conception.tex}
+
+\end{document}

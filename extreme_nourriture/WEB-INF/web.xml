@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC
+	  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	  "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <filter>
+     <filter-name>Filter</filter-name>
+     <filter-class>servlet.Filtre</filter-class>
+  </filter>
+  <servlet>
+    <servlet-name>Menu</servlet-name>
+    <servlet-class>servlet.Menu</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>servlet.Accueil</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>servlet.Admin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Avis</servlet-name>
+    <servlet-class>servlet.Avis</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>servlet.RegisterServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Panier</servlet-name>
+    <servlet-class>servlet.Panier</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlet.Logout</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Paiement</servlet-name>
+    <servlet-class>servlet.Paiement</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EnregistrerCommande</servlet-name>
+    <servlet-class>servlet.EnregistrerCommande</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>Menu</servlet-name>
+    <url-pattern>/Menu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/Accueil</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Avis</servlet-name>
+    <url-pattern>/Avis</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Panier</servlet-name>
+    <url-pattern>/Panier</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Paiement</servlet-name>
+    <url-pattern>/Paiement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnregistrerCommande</servlet-name>
+    <url-pattern>/EnregistrerCommande</url-pattern>
+  </servlet-mapping>
+
+
+   <filter-mapping>
+     <filter-name>Filter</filter-name>
+     <url-pattern>/Panier</url-pattern>
+  </filter-mapping>
+
+
+</web-app>
